@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lacina.cubeeclient.fragments.EventListFragment"
+    android:background="@color/defaultBackground"
+    >
+
+    <TextView
+        android:id="@+id/tv_msg_no_events"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Você não tem nenhum Evento cadastrado até o momento."
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/lv_event_and_rules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</FrameLayout>

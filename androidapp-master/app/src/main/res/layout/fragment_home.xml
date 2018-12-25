@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:background="@color/defaultBackground"
+    tools:context="com.lacina.cubeeclient.fragments.CubeeGridFragment">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:weightSum="14">
+
+
+        <TextView
+            android:id="@+id/tv_alert_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Você não tem nenhum CUBEE cadastrado neste Setor"
+            android:gravity="center_horizontal"
+            android:textColor="#fff"
+            android:visibility="gone"/>
+
+
+        <GridView
+            android:id="@+id/gridviewcubees"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:numColumns="3">
+        </GridView>
+
+
+        <LinearLayout
+            android:id="@+id/ln_buttons_fragment_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="12"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btm_register_event_or_rules"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:text="Registrar" />
+
+            <Button
+                android:id="@+id/btm_cancel_register_event_or_rules"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:text="Cancelar" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:id="@+id/ln_rigth_command_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#606060"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/img_btn_rule"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/btn_rule_unselected" />
+
+            <ImageButton
+                android:id="@+id/img_btn_event"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@mipmap/btn_event_unselected" />
+
+            <ImageButton
+                android:id="@+id/img_btn_signal"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@mipmap/btn_signal_unselected" />
+
+            <ImageButton
+                android:id="@+id/img_btn_db9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#606060"
+                android:src="@mipmap/nine"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

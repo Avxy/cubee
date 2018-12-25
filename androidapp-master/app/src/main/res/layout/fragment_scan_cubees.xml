@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultBackground"
+    android:orientation="horizontal"
+    tools:context="com.lacina.cubeeclient.fragments.CubeeGridFragment"
+    android:weightSum="12">
+
+<!--    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_logo" />-->
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="3"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+
+    <ImageButton
+        android:id="@+id/btn_bluetooth_conection"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@mipmap/btn_bluetooth" />
+
+
+
+    <TextView
+        android:id="@+id/tv_bluetooth_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/fragment_ble_default_marginBottom"
+        android:text="@string/scan_ble"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fragment_ble_default_text_size"
+        android:textStyle="bold" />
+</LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#fff" />
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="9"
+        android:footerDividersEnabled="false" />
+
+
+</LinearLayout>
+
+

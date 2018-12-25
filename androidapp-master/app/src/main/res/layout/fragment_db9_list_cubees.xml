@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultBackground"
+    tools:context="com.lacina.cubeeclient.fragments.Db9ListFragment">
+
+    <TextView
+        android:id="@+id/no_db9_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Você não tem nenhum CUBEE associado a esta regra DB9 até o momento."
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/lv_cubees_db9_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

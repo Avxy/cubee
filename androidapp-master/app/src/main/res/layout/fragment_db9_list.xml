@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.lacina.cubeeclient.fragments.Db9ListFragment">
+
+    <TextView
+        android:id="@+id/no_db9_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Você não tem nenhuma Regra DB9 cadastrado até o momento."
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/lv_db9_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/float_btn_db9_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@mipmap/plus"
+        android:visibility="invisible"
+        app:layout_anchorGravity="bottom|right|end" />
+
+</FrameLayout>

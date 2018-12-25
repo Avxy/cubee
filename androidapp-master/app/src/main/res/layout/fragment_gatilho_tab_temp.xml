@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_sensor_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:backgroundTint="@color/defaultBackground"
+            android:padding="10dp"
+            android:text="Sensor"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_prox_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            app:backgroundTint="@color/defaultBackground"
+            android:text="Proximidade"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_time_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            app:backgroundTint="@color/defaultBackground"
+            android:text="Tempo"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_local_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            app:backgroundTint="@color/defaultBackground"
+            android:text="Localização"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_gesto_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            app:backgroundTint="@color/defaultBackground"
+            android:text="Gestos"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_learning_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            app:backgroundTint="@color/defaultBackground"
+            android:text="Aprendizado"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item android:id="@+id/alertButton"
+        app:showAsAction="always"
+        android:title="@string/alert"
+        android:icon="@mipmap/btn_alert"/>
+
+    <item android:id="@+id/profile"
+        app:showAsAction="never"
+        android:title="@string/visualize_profile" />
+
+    <item android:id="@+id/view_rules"
+        app:showAsAction="never"
+        android:title="@string/visualize_rules" />
+
+    <item android:id="@+id/view_events"
+        app:showAsAction="never"
+        android:title="@string/visualize_events" />
+
+    <item android:id="@+id/view_db9"
+        app:showAsAction="never"
+        android:title="@string/visualize_db9_rules" />
+
+    <item android:id="@+id/logout"
+        app:showAsAction="never"
+        android:title="@string/exit" />
+
+</menu>

@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">CubeeClient</string>
+    <string name="cantReachServerError">Não foi possível conectar ao servidor</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="password">Senha</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Esse campo é obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_sing_up">SingUpActivity</string>
+    <string name="name_user">Nome</string>
+    <string name="action_register">Register</string>
+    <string name="facebook_app_id">446682559044306</string>
+    <string name="telephone">Telefone</string>
+    <string name="recovery_password">Restaurar senha</string>
+    <string name="code">Código</string>
+    <string name="new_password">Nova senha</string>
+    <string name="login">Login</string>
+    <string name="strings_match_required">As senhas são diferentes</string>
+    <string name="recovery_password_button">Esqueci a senha</string>
+    <string name="fb_autentication_failed">Erro ao autenticar com o Fabebook</string>
+    <string name="email_password_error">Email ou senha não conferem.</string>
+    <string name="register_user_error">Erro ao registrar a conta.</string>
+    <string name="error_create_user_title">Erro ao criar o usuário.</string>
+    <string name="error_create_in_use">O email já está em uso por outra conta.</string>
+    <string name="attempting_login">Realizando Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login_ok_message">Você está logado!</string>
+    <string name="error_autentication_message">Por favor, faça o login novamente.</string>
+    <string name="erro_autenticantion_title">Erro de autenticação</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+    <string name="color_primary">#ff4500</string>
+    <string name="edit">Editar</string>
+    <string name="create">Cadastrar cubee</string>
+    <string name="confirm_new_password">Confirme a nova senha</string>
+    <string name="error_password_match">Senha não confere</string>
+    <string name="number_invalid">Telefone inválido</string>
+    <string name="error_invalid_name">Nome inválido</string>
+    <string name="save">Salvar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="visualize_profile">Visualizar usuário</string>
+    <string name="exit">Sair</string>
+    <string name="editing">Editando</string>
+    <string name="id_cubee">Id do Cubee</string>
+    <string name="name_cubee">Nome do Cubee</string>
+    <string name="register_cubee">Registrar cubee</string>
+    <string name="home_screen">Tela inicial</string>
+    <string name="error_register_cubee_title">Erro ao cadastrar cubee</string>
+    <string name="try_again">Tente novamente</string>
+    <string name="edit_cubees">Editar    cubees</string>
+    <string name="rename">Renomear</string>
+    <string name="rename_cubee">Erro ao renomear o cubee</string>
+    <string name="renaming_cubee">Renomeando cubee</string>
+    <string name="find_bluetooth">Encontrar via bluetooth</string>
+    <string name="register_user_success">Usuário Cadastrado com sucesso</string>
+    <string name="confirm_password">Confirme a Senha</string>
+    <string name="confirm_password_error">As senhas devem ser iguais.</string>
+    <string name="cubee_on">Cubee ligado</string>
+    <string name="activating">Ativando</string>
+    <string name="desactivating">Desativando</string>
+    <string name="button_off">BOTÃO: OFF</string>
+    <string name="button_on">BOTÃO: ON</string>
+    <string name="scan">Escanear</string>
+    <string name="stop">Parar</string>
+    <string name="permission_localization">Por favor, conceda a permissão de localização para o funcionamento correto da aplicação</string>
+    <string name="deactivated">DESATIVADO</string>
+    <string name="scan_ble">Escanear</string>
+    <string name="sector_name">Nome do setor</string>
+    <string name="visualize_rules">Visualizar Regras</string>
+    <string name="visualize_db9_rules">Visualizar DB9</string>
+    <string name="visualize_events">Visualizar Eventos</string>
+    <string name="error_cubee_existed">CUBEE já existente</string>
+    <string name="sending_signal">Sinal enviado.</string>
+    <string name="connecting">Conectando.</string>
+    <string name="deactivating">Desativado</string>
+    <string name="activated">Ativado</string>
+    <string name="you_disconnected">Você foi desconectado</string>
+    <string name="login_tab">Login</string>
+    <string name="ble_tab">Conexão BLE</string>
+    <string name="errors_to_fix">Por favor, corrija os erros apresentados.</string>
+    <string name="timeout">Erro na conexão. Tente novamente.</string>
+    <string name="nointernet">Sem conexão com a internet.</string>
+    <string name="generic_error">Erro ao se conectar com o servidor.</string>
+    <string name="error_server">Erro interno do servidor.</string>
+
+
+    <string name="all_db9_rule">Todas as regras DB9</string>
+    <string name="rule_name">Nome da regra</string>
+    <string name="signup_rule">Registrar regra</string>
+    <string name="event_name">Nome do evento</string>
+    <string name="signup_event">Registrar evento</string>
+    <string name="cancel">Cancelar</string>
+    <string name="no_rule">Você não tem nenhuma Regra cadastrada até o momento.</string>
+    <string name="finish">Finalizar</string>
+    <string name="alert">Alert</string>
+    <string name="max_threshold">Limite Superior:</string>
+    <string name="min_threshold">Limite Inferior:</string>
+
+    <string name="number1">1</string>
+    <string name="number2">2</string>
+    <string name="number3">3</string>
+    <string name="number4">4</string>
+    <string name="number5">5</string>
+    <string name="number6">6</string>
+    <string name="number7">7</string>
+    <string name="number8">8</string>
+
+</resources>

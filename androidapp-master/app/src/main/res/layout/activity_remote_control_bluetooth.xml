@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:id="@+id/begin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:background="@color/defaultBackground"
+        tools:context="com.lacina.cubeeclient.activities.SelectAreasActivity">
+
+        <RelativeLayout
+            android:id="@+id/states"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp">
+
+            <RadioButton
+                android:id="@+id/control_btnA1"
+                android:button="@android:color/transparent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/number1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_button" />
+
+            <RadioButton
+                android:id="@+id/control_btnA2"
+                android:button="@android:color/transparent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginStart="40dp"
+                android:text="@string/number2"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:background="@drawable/round_button"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/control_btnA1"/>
+
+            <RadioButton
+                android:id="@+id/control_btnB1"
+                android:button="@android:color/transparent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/number3"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_below="@id/control_btnA1"
+                android:background="@drawable/round_button" />
+
+            <RadioButton
+                android:id="@+id/control_btnB2"
+                android:button="@android:color/transparent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginStart="40dp"
+                android:text="@string/number4"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:background="@drawable/round_button"
+                android:layout_below="@id/control_btnA2"
+                android:layout_toEndOf="@id/control_btnB1"/>
+
+            <RadioButton
+                android:id="@+id/control_btnC1"
+                android:button="@android:color/transparent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/number5"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_below="@id/control_btnB1"
+                android:background="@drawable/round_button" />
+
+            <RadioButton
+                android:id="@+id/control_btnC2"
+                android:button="@android:color/transparent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginStart="40dp"
+                android:text="@string/number6"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:background="@drawable/round_button"
+                android:layout_below="@id/control_btnB2"
+                android:layout_toEndOf="@id/control_btnC1"/>
+
+            <RadioButton
+                android:id="@+id/control_btnD1"
+                android:button="@android:color/transparent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/number7"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_below="@id/control_btnC1"
+                android:background="@drawable/round_button" />
+
+            <RadioButton
+                android:id="@+id/control_btnD2"
+                android:button="@android:color/transparent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginStart="40dp"
+                android:text="@string/number8"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:background="@drawable/round_button"
+                android:layout_below="@id/control_btnC2"
+                android:layout_toEndOf="@id/control_btnD1"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

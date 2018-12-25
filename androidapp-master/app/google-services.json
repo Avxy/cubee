@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "677212207001",
+    "firebase_url": "https://cubee-project-1e339.firebaseio.com",
+    "project_id": "cubee-project-1e339",
+    "storage_bucket": "cubee-project-1e339.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677212207001:android:31f5fdaee9bf0e42",
+        "android_client_info": {
+          "package_name": "com.lacina.cubeeclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677212207001-tr7k37kgqudq4iiupf4imqp9m8sv9jfm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lacina.cubeeclient",
+            "certificate_hash": "e05dda4da08fb1211cc26aa5cc11fcd464721d0d"
+          }
+        },
+        {
+          "client_id": "677212207001-a824drl57b70184p5sf1grqgitbeaikh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8xbwMtKx0TtDGr6h2WtQ1jK8sRS3Fhf4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677212207001-a824drl57b70184p5sf1grqgitbeaikh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
